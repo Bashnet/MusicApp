@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#880E4F"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/artists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@android:color/white"
+        android:padding="16dp"
+        android:text="ARTISTS"
+        android:textColor="#E91E63" />
+
+    <TextView
+        android:id="@+id/albums"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@android:color/white"
+        android:padding="16dp"
+        android:text="ALBUMS"
+        android:textColor="#E91E63" />
+
+    <TextView
+        android:id="@+id/songs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@android:color/white"
+        android:padding="16dp"
+        android:text="SONGS"
+        android:textColor="#E91E63" />
+
+    <TextView
+        android:id="@+id/genres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@android:color/white"
+        android:padding="16dp"
+        android:text="GENRES"
+        android:textColor="#E91E63" />
+
+</LinearLayout>

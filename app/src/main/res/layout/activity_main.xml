@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#880E4F"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/recently_played"
+        style="@style/CategoryStyle"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="#AA3939"
+        android:padding="16dp"
+        android:text="Recently Played" />
+
+    <TextView
+        android:id="@+id/favourites"
+        style="@style/CategoryStyle"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="#FF740E"
+        android:padding="16dp"
+        android:text="Favourites" />
+
+    <TextView
+        android:id="@+id/playlist"
+        style="@style/CategoryStyle"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="#BFBF00"
+        android:padding="16dp"
+        android:text="My playlist" />
+
+    <TextView
+        android:id="@+id/library"
+        style="@style/CategoryStyle"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="#00BE21"
+        android:padding="16dp"
+        android:text="Library" />
+
+</LinearLayout>
