@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#880E4F"
+    android:layout_height="match_parent"
+    tools:context=".NowPlayingActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:contentDescription="image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/aimer" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_margin="16dp"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Brave Shine" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="aimer" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="image"
+        android:layout_gravity="center"
+        android:src="@drawable/play_button"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center" >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="image"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/rewind"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:contentDescription="image"
+            android:src="@drawable/pause" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="image"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/fast_forward" />
+
+    </LinearLayout>
+
+</LinearLayout>

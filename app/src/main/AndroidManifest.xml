@@ -18,14 +18,40 @@
         </activity>
         <activity
             android:name=".libraryActivity"
-            android:label="Library" />
-        <activity android:name=".RecentlyPlayedActivity" />
-        <activity android:name=".favouritesActivity" />
-        <activity android:name=".playlistActivity" />
-        <activity android:name=".artistsActivity" />
-        <activity android:name=".albumsActivity" />
-        <activity android:name=".songsActivity" />
-        <activity android:name=".genresActivity"></activity>
+            android:label="Library"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RecentlyPlayedActivity"
+            android:label="Recently played"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".favouritesActivity"
+            android:label="Favourites"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".playlistActivity"
+            android:label="Playlist"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".artistsActivity"
+            android:label="Artists"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".albumsActivity"
+            android:label="Albums"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".songsActivity"
+            android:label="Songs"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".genresActivity"
+            android:label="Genres"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".NowPlayingActivity"
+            android:label="Now Playing"
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>

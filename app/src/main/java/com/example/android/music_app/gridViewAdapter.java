@@ -12,8 +12,6 @@ import java.util.ArrayList;
 
 public class gridViewAdapter extends ArrayAdapter<gridViewItems> {
 
-    private static final String LOG_TAG = songAdapter.class.getSimpleName();
-
     /**
      * @param context        The current context. Used to inflate the layout file.
      * @param androidFlavors A List of AndroidFlavor objects to display in a list
